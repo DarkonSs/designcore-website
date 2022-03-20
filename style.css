@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+:root {
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #85888C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('pagebg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(29, 29, 29)
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 130%;
+}
+
+.button {
+    background-color: rgb(255, 73, 73);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button2 {
+    display: none;
+}
+
+.button:hover {
+    background-color: rgb(167, 45, 45);
+    transition: 0.4s;
+}
+
+.button2:hover {
+    background-color: rgb(167, 45, 45);
+    transition: 0.4s;
+}
+
+.logo {
+    position: absolute;
+    width: 300;
+    left: 30%;
+    margin-top: 20;
+}
+
+.mt {
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-top: 60;
+}
+
+.tmts {
+    font-size: 60;
+}
+
+.svbtn {
+    color: white;
+}
+
+.docbtn {
+    color: white;
+}
+
+.docbtn2 {
+    display: none;
+}
+
+hr.hr1 {
+    border-top: 1px solid rgb(24, 24, 24);
+    border-bottom: 1px solid rgb(24, 24, 24);
+}
+
+.abt {
+    color: white;
+    text-align: center;
+    padding-top: 50;
+}
+
+.ito {
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.listC {
+    background-color: rgb(255, 250, 250);
+    border: none;
+    color: rgb(237, 100, 100);
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 18;
+    margin-top: 5;
+}
+
+table.table1 {
+    border-spacing: 0;
+    border: 1px solid rgb(237, 100, 100);
+    ;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    background-color: azure;
+}
+
+table.table1 td,
+table.table1 th {
+    border-bottom: 1px solid DarkOrange;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgb(237, 100, 100);
+    ;
+}
+
+table.table1 tr:last-child>td {
+    border-bottom: none;
+}
+
+.info1 {
+    background-color: #ddefff;
+    border-left: 6px solid #368ff4;
+    padding: 15px 12px;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 7px;
+}
+
+.SCT {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 7px;
+}
+
+.info2 {
+    background-color: #fff0f0;
+    border-left: 6px solid #f43636;
+    padding: 15px 12px;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 7px;
+}
+
+.top-nav {
+    overflow: hidden;
+}
+
+.menu {
+    display: none;
+    z-index: 1;
+}
+
+.menu-button-container {
+    display: none;
+    position: absolute;
+    right: 12%;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
