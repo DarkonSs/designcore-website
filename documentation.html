@@ -31,7 +31,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" id="section4">
       <ul class="nav navbar">
         <img src="DCLOGO.png" style="width: 50; height: 50" />
         <a class="svbtn" href="/home.html">Home</a>
@@ -39,7 +39,7 @@
         <a class="svbtn" href="https://discords.com/servers/designcore"
           >Support</a
         >
-        <a class="svbtn" href="https://top.gg/bot/929694221047312434">Vote</a>
+        <a class="svbtn" href="https://top.gg/en/bot/123456789">Vote</a>
         <a class="svbtn" href="/documentation.html">Documentation</a>
         <a class="button" href="https://discord.gg/cF25czpM7C">Discord</a>
         <a
@@ -59,7 +59,7 @@
             <li>
               <a href="https://discords.com/servers/designcore">Support</a>
             </li>
-            <li><a href="https://top.gg/bot/929694221047312434">Vote</a></li>
+            <li><a href="https://top.gg/en/bot/123456789">Vote</a></li>
             <li><a href="documentation.html">Documentation</a></li>
             <li><a href="https://discord.gg/cF25czpM7C">Discord</a></li>
             <li>
@@ -73,7 +73,16 @@
       </ul>
     </header>
     <hr class="hr1" />
-
+    <br>
+    <br />
+    <br>
+    <div class="info1"><b>SUMMARY:</b>
+      <br><br>
+      <b>1 -</b> <a class="i3l" href="#section1">Commands</b></a>
+      <br>
+      <b>2 -</b> <a class="i3l" href="#section2">SlashCommands</a>
+      <br>
+      <b>3 -</b> <a class="i3l" href="#section3">Ticket System</a></div>
     <div class="abt">
       <h1>DesignCore Documentation</h1>
       <br />
@@ -81,16 +90,16 @@
         This is a basic documentation of DesignCore for <br />people who needs
         help on the bot.
       </h2>
-      <br />
-      <br />
+      <br>
+      <br id="section1">
       <h1>Commands</h1>
       <br />
-      <div class="info1">
+      <div class="info1"  id="#section1">
         <p>
           <span style="float: left; font-size: 30"><strong>Info!</strong></span>
-          The words on <span style="color: rgb(211, 58, 58)">red</span> are
+          The words on <span style="color: rgb(211, 58, 58)"><b>red</b></span> are
           optional when you use the command and the words on
-          <span style="color: rgb(58, 175, 211)">blue</span> are required.<br /><br />
+          <span style="color: rgb(58, 175, 211)"><b>blue</b></span> are required.<br /><br />
           Also, on this bot the commands are
           <b><span style="color: rgb(77, 77, 77)">SlashCommands</span></b
           >, later on this page there will be a tutorial of how to use them
@@ -105,16 +114,23 @@
             <th>DESCRIPTION</th>
           </tr>
           <tr>
+            <td>Add</td>
+            <td>
+              /add <span style="color: rgb(211, 58, 58)"><b>[@username]</b></span>
+            </td>
+            <td>This command is used to add a user to a channel by giving him permissions.</td>
+          </tr>
+          <tr>
             <td>Avatar</td>
             <td>
-              /avatar <span style="color: rgb(211, 58, 58)">[@username]</span>
+              /avatar <span style="color: rgb(211, 58, 58)"><b>[@username]</b></span>
             </td>
             <td>This will display you profile as .png.</td>
           </tr>
           <tr>
             <td>Ban</td>
             <td>
-              /ban <span style="color: rgb(58, 175, 211)">[@username]</span>
+              /ban <span style="color: rgb(58, 175, 211)"><b>[@username]</b></span>
             </td>
             <td>This will ban the user selected from the server.</td>
           </tr>
@@ -148,7 +164,7 @@
           <tr>
             <td>Kick</td>
             <td>
-              /kick <span style="color: rgb(58, 175, 211)">[@username]</span>
+              /kick <span style="color: rgb(58, 175, 211)"><b>[@username]</b></span>
             </td>
             <td>This will kick the user selected from the server.</td>
           </tr>
@@ -160,9 +176,16 @@
           <tr>
             <td>Purge</td>
             <td>
-              /purge <span style="color: rgb(58, 175, 211)">[amount]</span>
+              /purge <span style="color: rgb(58, 175, 211)"><b>[amount]</b></span>
             </td>
             <td>This will delete the amount of messages chosen.</td>
+          </tr>
+          <tr>
+            <td>Remove</td>
+            <td>
+              /remove <span style="color: rgb(211, 58, 58)"><b>[@username]</b></span>
+            </td>
+            <td>This command is used to remove a user from a channel by removing his permissions.</td>
           </tr>
           <tr>
             <td>Roles</td>
@@ -175,17 +198,22 @@
             <td>This will display the iformation of the server.</td>
           </tr>
           <tr>
+            <td>Ticket Pannel</td>
+            <td>/ticket-pannel</td>
+            <td>This will bring up a ticket panel to open tickets.</td>
+          </tr>
+          <tr>
             <td>UserInfo</td>
             <td>
-              /userinfo <span style="color: rgb(211, 58, 58)">[@username]</span>
+              /userinfo <span style="color: rgb(211, 58, 58)"><b>[@username]</b></span>
             </td>
-            <td>This will display the information of the user selected.</td>
+            <td>This will display the iformation of the user selected.</td>
           </tr>
         </table>
       </div>
       <br />
       <br />
-      <br />
+      <br id="section2">
       <h1>SlashCommands Tutorial</h1>
       <h2>
         On this tutorial you will learn how to use a <br /><b
@@ -201,7 +229,7 @@
     <div class="info2">
       <p>
         <b><span style="color: rgb(211, 58, 58); font-size: 30">1</span></b>
-        <span style="color: rgb(90, 90, 90)">➜</span> Write a slash "/" on the
+        <span style="color: rgb(90, 90, 90)">➜</span> Write a slash <b>"/"</b> on the
         chat.
       </p>
     </div>
@@ -210,7 +238,7 @@
       <p>
         <b><span style="color: rgb(211, 58, 58); font-size: 30">2</span></b>
         <span style="color: rgb(90, 90, 90)">➜</span> Search and select
-        DesignCore on the bot list.
+      <b>DesignCore</b> on the bot list.
       </p>
     </div>
     <br />
@@ -224,7 +252,108 @@
     <br />
     <img class="SCT" src="SC_T.png" />
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-    <h1 class="abt"></h1>
+    <br id="section3">
+    <div class="abt">
+      <h1>Ticket System Tutorial</h1>
+      <h2>
+        This ticket system is simple to set up and use,<br />
+        just follow the next steps:
+      </h2>
+    </div>
+    <br />
+    <div class="info2">
+      <p>
+        <b><span style="color: rgb(211, 58, 58); font-size: 30">1</span></b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Use the
+        <b>/ticket-pannel</b> command to set-up the pannel where you want.
+      </p>
+    </div>
+    <br />
+    <img class="SCT" src="1pannel.png" />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="abt">
+      <h3>Your pannel is now ready!</h3>
+    </div>
+    <br />
+    <div class="info2">
+      <p>
+        <b><span style="color: rgb(211, 58, 58); font-size: 30">2</span></b>
+        <span style="color: rgb(90, 90, 90)">➜</span>Cick on
+        <b>🎟️ Create a ticket</b> to open a ticket.<br />Now you can see three
+        buttons, Close, Add an User, and Remove an User.
+      </p>
+    </div>
+    <br />
+    <div class="info1">
+      <p>
+        <b>✖️</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Close the ticket.
+      </p>
+      <p>
+        <b>🟡</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Add an user to the room
+        with <b>/add</b>.
+      </p>
+      <p>
+        <b>🔴</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Remove an user to the room
+        with <b>/Remove</b>.
+      </p>
+    </div>
+    <br />
+    <img class="SCT" src="2openticket.png" />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="info2">
+      <p>
+        <b><span style="color: rgb(211, 58, 58); font-size: 30">3</span></b>
+        <span style="color: rgb(90, 90, 90)">➜</span>Cick on <b>✖️ Close</b> to
+        close the ticket.<br />Now you can see three others buttons, Open
+        Ticket, Transcript, and Delete.
+      </p>
+    </div>
+    <br />
+    <div class="info1">
+      <p>
+        <b>🔓</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Re-open the ticket.
+      </p>
+      <p>
+        <b>📑</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Save all the data of the
+        ticket with an html project.
+      </p>
+      <p>
+        <b>🗑️</b>
+        <span style="color: rgb(90, 90, 90)">➜</span> Delete the ticket.
+      </p>
+    </div>
+    <br />
+    <img class="SCT" src="3closeticket.png" />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="abt">
+      <h1>Transcripts</h1>
+      <br />
+      <h2>
+        If you transcript a ticket, you will have <br />something like this:
+      </h2>
+      <br />
+      <img class="SCT" src="4transcript.png" />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h2>
+        You just need to follow the steps on <br />the embed to open the ticket
+        data, this is a preview:
+      </h2>
+      <br />
+      <img class="SCT" src="5trctpreview.png" />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h3>
+        <span style="color: rgb(90, 90, 90)"
+          >(Remember that you can't share the preview,<br />
+          every guy need to download it and open it himself)</span
+        >
+      </h3>
+      <br /><br />
+      <p class="button3"><a href="#section4">Back Up</a></p>
+    </div>
   </body>
 </html>
